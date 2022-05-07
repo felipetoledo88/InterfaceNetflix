@@ -1,0 +1,33 @@
+@media screen and (max-width:700px) {
+header .container{
+    display: flex;
+    flex-direction: column;
+}
+
+.logoHouse {
+    max-width: 80%;
+}
+
+.descricao {
+    width: 80%;
+    margin-left: 10px;
+    font-size: 20px ;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.botao{
+    margin-top: 5px;
+    width: 150px;
+    height: 60px;
+}
+
+
+}
+
+@media screen and (min-width:1000px) {
+    .descricao {
+        margin-left: 10px;
+        font-size: 15px ;
+        font-family: 'Roboto Flex', sans-serif;
+    }
+}
